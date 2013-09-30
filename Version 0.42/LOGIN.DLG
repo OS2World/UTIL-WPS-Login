@@ -1,0 +1,15 @@
+DLGTEMPLATE LOGIN_TITLE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+		DIALOG  "Login Version 0.42 (c) 1994 Jens Glathe", LOGIN_TITLE, 17, 14, 243, 76, FS_SCREENALIGN,
+            FCF_TITLEBAR
+    BEGIN
+        ENTRYFIELD      "", LOGIN_NAME, 125, 57, 103, 8, ES_MARGIN
+        ENTRYFIELD      "", LOGIN_PASSWORD, 125, 29, 103, 8, ES_MARGIN | 
+                        ES_UNREADABLE
+        LTEXT           "Username:", LOGIN_USERTEXT, 70, 57, 47, 8
+        LTEXT           "Password:", LOGIN_PASSWORDTEXT, 70, 29, 47, 8
+        DEFPUSHBUTTON   "OK", DID_OK, 123, 3, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 189, 3, 40, 14
+        ICON            ID_USERICON, LOGIN_ICON, 22, 39, 21, 16, WS_GROUP
+    END
+END

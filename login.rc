@@ -1,0 +1,11 @@
+#define INCL_NLS
+#include <objc/os2emx.h>
+#include "logindlg.h"
+
+ICON ID_USERICON folders.ico
+
+rcinclude login.dlg
+
+BITMAP LOGIN_USERBITMAP "007_64.bmp"
+
+rcinclude config.DLG

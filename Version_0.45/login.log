@@ -1,0 +1,15 @@
+Sun Mar 23 11:07:04 1997: Starting login program. argv[1]=a argv[2]=b argv[3]=(null)
+Sun Mar 23 11:07:07 1997: Attempt to log in from user , password typed: 
+Sun Mar 23 11:07:08 1997: User Data file not found
+Sun Mar 23 11:07:08 1997: Program is terminating. Killing child processes and cleaning up memory...
+Sun Mar 23 11:10:27 1997: Starting login program. argv[1]=a argv[2]=b argv[3]=(null)
+Sun Mar 23 11:11:38 1997: System shutdown requested.
+Sun Mar 23 11:11:46 1997: TermSnoop: WM_QUIT received. Killing desktop process...
+Fri Jun 26 23:43:36 1998: Starting login program. argv[1]=a argv[2]=b argv[3]=(null)
+Fri Jun 26 23:43:38 1998: Attempt to log in from user , password typed: 
+Fri Jun 26 23:43:38 1998: User Data file not found
+Fri Jun 26 23:43:40 1998: Program is terminating. Killing child processes and cleaning up memory...
+Fri Jun 26 23:43:41 1998: Starting login program. argv[1]=a argv[2]=b argv[3]=(null)
+Fri Jun 26 23:43:42 1998: Attempt to log in from user , password typed: 
+Fri Jun 26 23:43:43 1998: User Data file not found
+Fri Jun 26 23:43:43 1998: Program is terminating. Killing child processes and cleaning up memory...

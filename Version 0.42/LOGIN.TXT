@@ -1,0 +1,80 @@
+Login Version 0.2  README
+
+Login is a program wich provides multiple desktops to your WPS. Every user defined desktop can be protected by a password. It doesn't protect any files, so be VERY careful when you use it.
+
+How it works:
+When Login is started, it asks for a user name and a password. If these are correct, Login sets the user .ini file, which is associated with the user name, and then starts pmshell (or any other application).
+
+Needed parameters for Login:
+Login needs the full name of the user data file as argv[1] and the application to start as argv[2].
+
+Example: login.exe c:\utils\login\userdata.login c:\os2\pmshell.exe
+
+How to install:
+
+To install it correctly, you must do some changes to your config.sys. The modifications are:
+
+- FIRST: ADD A CALL=CMD.EXE STATEMENT!! It saves a lot of trouble in the case that something goes wrong.
+
+- SECOND: Create a backup of your .ini files! Login doesn't modify them, but the WPS does.
+
+- Replace the PROTSHELL statement with login.exe and the needed paramters. Example:
+PROTSHELL=C:\UTILS\LOGIN.EXE c:\utils\login\userdata.login c:\os2\pmshell.exe
+
+- Add following setting:
+SET WORKPLACE_PROCESS=YES
+If you forget it, pmshell won't open your folders or programs or whatever you start automatically.
+
+- REMOVE the following setting:
+SET RUNWORKPLACE=<anyprogram>
+If you forget it, the RUNWORKPLACE will start before you're logged in.
+
+You should create a new user .ini file with "makeini initial.ini ini.rc", which you set as the default USER_INI file. That's why... you'll see.
+
+- Create the user data file. Use the userdata.log file as a template. The format is:
+
+First line: The magic cookie for the program. Do not change this line!
+After this line, every three lines are one user entry. The order is:
+- user name
+- password
+- full path and name of the user ini file.
+
+It's a good idea to add the initial.ini desktop as a service entry.
+
+How to create a new desktop:
+
+- Use the makeini utility to create a new user .ini file.
+- Add an entry associated with the new user file to the user data file.
+- Reboot and log in with the new name.
+- The WPS should start with the well-known default desktop for beginners. This is the new one. Now you can change it til it fits to your needs.
+
+KNOWN PROBLEMS:
+
+- If a new USER_INI file is set, the desktop background color and the system settings (like window animation) will not be changed. Therefore you should configure this with the initial.ini desktop for your needs.
+
+- To have printing capability from every desktop, you MUST install the printer drivers for EVERY desktop separately. This makes sense, because every printer object has its own queue.
+
+- To get more save operation of the WPS with multiple desktops, every desktop directory tree should be located in its own subdirectory. Example:
+
+User 1: c:\user_1\Desktop
+User 2: c:\user_2\Desktop
+
+This is my own expirience with desktop directories.
+
+WARRANTIES:
+I'm not liable for anything.
+
+Bug reports, hints, money:
+
+This program is shareware. There is no registration fee required (up to version 1.0), but if you want to send me money, I won't mind. If you want to be registered, just send me a mail or a letter and you will be informed about the newest versions of the program.
+
+Please send to:
+
+Jens Glathe
+Keithstrasse 36 Apt. 604
+D- 10787 Berlin
+
+E-Mail: jensajce@w271zrz.ZRZ.TU-Berlin.de
+
+
+

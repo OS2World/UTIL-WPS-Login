@@ -1,0 +1,21 @@
+#include "OS2.H"
+
+DLGTEMPLATE 100 LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG "Login Version 0.45pl3 (c) 1996 Jens Glathe", 100, 181, 160, 244, 68, 
+           , FCF_SCREENALIGN | FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Username:", 103, 74, 46, 47, 9,
+                        NOT WS_GROUP | DT_VCENTER
+        LTEXT           "Password:", 104, 74, 31, 47, 9,
+                        NOT WS_GROUP | DT_VCENTER
+        COMBOBOX        "", 4100, 123, 46, 108, 10,
+                        NOT CBS_SIMPLE | CBS_DROPDOWN
+        ENTRYFIELD      "", 4101, 123, 31, 106, 10, ES_MARGIN
+        PUSHBUTTON      "Help", 108, 7, 3, 53, 13, WS_GROUP
+        PUSHBUTTON      "Shutdown", 107, 123, 3, 69, 13
+        DEFPUSHBUTTON   "OK", 1, 196, 3, 41, 13
+        GROUPBOX        "", 4103, 7, 25, 53, 40
+        GROUPBOX        "", 4102, 65, 25, 172, 40
+    END
+END

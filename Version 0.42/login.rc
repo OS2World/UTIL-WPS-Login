@@ -1,0 +1,6 @@
+#include <os2.h>
+#include "logindlg.h"
+
+ICON ID_USERICON folders.ico
+
+rcinclude login.dlg

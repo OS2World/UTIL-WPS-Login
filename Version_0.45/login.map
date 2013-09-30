@@ -1,0 +1,309 @@
+
+ login
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001C90H TEXT32                 CODE 32-bit
+ 0001:00001C90 000000004H SET1___CTOR_LIST__     CODE 32-bit
+ 0001:00001C94 000000008H SET2___CTOR_LIST__     CODE 32-bit
+ 0001:00001C9C 000000004H SET3___CTOR_LIST__     CODE 32-bit
+ 0001:00001CA0 000000004H SET1___DTOR_LIST__     CODE 32-bit
+ 0001:00001CA4 000000000H SET2___DTOR_LIST__     CODE 32-bit
+ 0001:00001CA4 000000004H SET3___DTOR_LIST__     CODE 32-bit
+ 0001:00001CA8 000000004H SET1___crtinit1__      CODE 32-bit
+ 0001:00001CAC 000000000H SET2___crtinit1__      CODE 32-bit
+ 0001:00001CAC 000000004H SET3___crtinit1__      CODE 32-bit
+ 0001:00001CB0 000000004H SET1___crtexit1__      CODE 32-bit
+ 0001:00001CB4 000000000H SET2___crtexit1__      CODE 32-bit
+ 0001:00001CB4 000000004H SET3___crtexit1__      CODE 32-bit
+ 0002:00000000 000000200H DATA32                 DATA 32-bit
+ 0002:00000200 00000000CH BSS32                  BSS 32-bit
+ 0002:0000020C 000000230H c_common               BSS 32-bit
+ 0003:00000000 000008000H STACK                  STACK 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+  Address         Publics by Name
+
+ 0000:00000000  Imp  atexit               (EMXLIBCM.703)
+ 0001:00000FC4       CenterWindow
+ 0001:00000EDC       CheckForPassword
+ 0000:00000000  Imp  ctime                (EMXLIBCM.1002)
+ 0002:00000434       Dialog_tid
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosCloseQueue        (QUECALLS.11)
+ 0000:00000000  Imp  DosCreatePipe        (DOSCALLS.239)
+ 0000:00000000  Imp  DosCreateQueue       (QUECALLS.16)
+ 0000:00000000  Imp  DosEnterCritSec      (DOSCALLS.232)
+ 0000:00000000  Imp  DosExitCritSec       (DOSCALLS.233)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosKillThread        (DOSCALLS.111)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  DosReadQueue         (QUECALLS.9)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetPriority       (DOSCALLS.236)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  DosStartSession      (SESMGR.37)
+ 0000:00000000  Imp  DosStopSession       (SESMGR.40)
+ 0000:00000000  Imp  DosWaitThread        (DOSCALLS.349)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  exit                 (EMXLIBCM.712)
+ 0000:00000000  Imp  fclose               (EMXLIBCM.509)
+ 0000:00000000  Imp  fgets                (EMXLIBCM.517)
+ 0000:00000000  Imp  fopen                (EMXLIBCM.520)
+ 0000:00000000  Imp  fprintf              (EMXLIBCM.521)
+ 0000:00000000  Imp  free                 (EMXLIBCM.401)
+ 0002:0000021C       hab
+ 0002:00000088       hwndRahmen
+ 0001:000015DC       lfworker
+ 0002:0000020C       LogFileName
+ 0002:0000022C       LoginDaten
+ 0001:00000628       LoginDlgProc
+ 0001:0000081C       LoginDlgThread
+ 0002:00000438       LoginExeID
+ 0001:0000050C       LoginWinFunc
+ 0001:00001A38       logloop
+ 0001:0000118C       logprintf
+ 0002:00000220       Log_tid
+ 0001:000001DC       main
+ 0000:00000000  Imp  malloc               (EMXLIBCM.402)
+ 0000:00000000  Imp  memset               (EMXLIBCM.210)
+ 0000:00000000  Imp  objc_get_class       (OBJC.24)
+ 0000:00000000  Imp  objc_msg_lookup      (OBJC.33)
+ 0000:00000000  Imp  objc_msg_lookup_super (OBJC.34)
+ 0000:00000000  Imp  objc_thread_create   (OBJC.142)
+ 0000:00000000  Imp  objc_thread_exit     (OBJC.140)
+ 0002:00000224       ph_read
+ 0002:00000228       ph_write
+ 0000:00000000  Imp  PrfQueryProfile      (PMSHAPI.107)
+ 0000:00000000  Imp  PrfReset             (PMSHAPI.108)
+ 0002:0000008C       Program_Close_Requested
+ 0002:00000218       ProtokollDatei
+ 0001:00001030       ShakeWindow
+ 0001:00001140       ShutdownThread
+ 0000:00000000  Imp  sprintf              (EMXLIBCM.559)
+ 0001:00000A58       StarterThread
+ 0002:00000210       Starter_tid
+ 0000:00000000  Imp  strcat               (EMXLIBCM.212)
+ 0000:00000000  Imp  strcmp               (EMXLIBCM.214)
+ 0000:00000000  Imp  strcpy               (EMXLIBCM.215)
+ 0000:00000000  Imp  strrchr              (EMXLIBCM.228)
+ 0001:00001254       TermSnoop
+ 0002:00000214       TermSnoop_tid
+ 0000:00000000  Imp  time                 (EMXLIBCM.1010)
+ 0000:00000000  Imp  vsprintf             (EMXLIBCM.576)
+ 0000:00000000  Imp  WinCancelShutdown    (PMWIN.705)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCreateStdWindow   (PMWIN.908)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinShutdownSystem    (PMWP.149)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0002:00000000       _data
+ 0000:00000000  Imp  _emx_init            (EMX.1)
+ 0000:00000000  Imp  _emx_syscall         (EMX.2)
+ 0000:00000000  Imp  _entry1              (EMXLIBCM.815)
+ 0000:00000000  Imp  _entry2              (EMXLIBCM.816)
+ 0001:000012D8       _GLOBAL_$I$hwndRahmen
+ 0001:00001B18       _GLOBAL_$I$lfworker
+ 0002:00000018       _heap_base
+ 0002:00000020       _heap_brk
+ 0002:0000001C       _heap_end
+ 0001:00000018       _init
+ 0000:00000000  Imp  _itoa                (EMXLIBCM.782)
+ 0000:00000000  Imp  _startup             (EMXLIBCM.793)
+ 0000:00000000  Imp  _strdup              (EMXLIBCM.217)
+ 0000:00000000  Imp  _streamv             (EMXLIBCM.595)
+ 0001:00000000       _text
+ 0000:00000000  Imp  _tfree               (EMXLIBCM.409)
+ 0000:00000000  Imp  _tmalloc             (EMXLIBCM.410)
+ 0001:00001CB0       __crtexit1__
+ 0001:00001CA8       __crtinit1__
+ 0001:00001C48       __ctordtorInit
+ 0000:00000000  Imp  __ctordtorInit1      (EMXLIBCM.843)
+ 0001:00001C6C       __ctordtorTerm
+ 0000:00000000  Imp  __ctordtorTerm1      (EMXLIBCM.844)
+ 0001:00001C90       __CTOR_LIST__
+ 0001:00001CA0       __DTOR_LIST__
+ 0001:00001C34       __main
+ 0001:00001B2C       __objc_class_name_LogFile
+ 0000:00000000  Imp  __objc_class_name_Object (OBJC.136)
+ 0000:00000000  Imp  __objc_exec_class    (OBJC.47)
+ 0001:00001C68       __POST$__ctordtorInit
+ 0001:00001C8C       __POST$__ctordtorTerm
+ 0001:00001C46       __POST$__main
+ 0001:0000000C       __syscall
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  objc_msg_lookup_super (OBJC.34)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  _emx_init            (EMX.1)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  PrfReset             (PMSHAPI.108)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  sprintf              (EMXLIBCM.559)
+ 0000:00000000  Imp  DosReadQueue         (QUECALLS.9)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  fprintf              (EMXLIBCM.521)
+ 0000:00000000  Imp  _startup             (EMXLIBCM.793)
+ 0000:00000000  Imp  DosCreatePipe        (DOSCALLS.239)
+ 0000:00000000  Imp  _emx_syscall         (EMX.2)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  DosKillThread        (DOSCALLS.111)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  DosWaitThread        (DOSCALLS.349)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosCloseQueue        (QUECALLS.11)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  strrchr              (EMXLIBCM.228)
+ 0000:00000000  Imp  WinCreateStdWindow   (PMWIN.908)
+ 0000:00000000  Imp  objc_get_class       (OBJC.24)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  vsprintf             (EMXLIBCM.576)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  DosCreateQueue       (QUECALLS.16)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  _streamv             (EMXLIBCM.595)
+ 0000:00000000  Imp  _tmalloc             (EMXLIBCM.410)
+ 0000:00000000  Imp  DosExitCritSec       (DOSCALLS.233)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  free                 (EMXLIBCM.401)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  time                 (EMXLIBCM.1010)
+ 0000:00000000  Imp  DosStopSession       (SESMGR.40)
+ 0000:00000000  Imp  exit                 (EMXLIBCM.712)
+ 0000:00000000  Imp  DosSetPriority       (DOSCALLS.236)
+ 0000:00000000  Imp  __objc_class_name_Object (OBJC.136)
+ 0000:00000000  Imp  _strdup              (EMXLIBCM.217)
+ 0000:00000000  Imp  fgets                (EMXLIBCM.517)
+ 0000:00000000  Imp  ctime                (EMXLIBCM.1002)
+ 0000:00000000  Imp  fopen                (EMXLIBCM.520)
+ 0000:00000000  Imp  __ctordtorInit1      (EMXLIBCM.843)
+ 0000:00000000  Imp  _entry2              (EMXLIBCM.816)
+ 0000:00000000  Imp  WinShutdownSystem    (PMWP.149)
+ 0000:00000000  Imp  _itoa                (EMXLIBCM.782)
+ 0000:00000000  Imp  __ctordtorTerm1      (EMXLIBCM.844)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  malloc               (EMXLIBCM.402)
+ 0000:00000000  Imp  fclose               (EMXLIBCM.509)
+ 0000:00000000  Imp  DosEnterCritSec      (DOSCALLS.232)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  _tfree               (EMXLIBCM.409)
+ 0000:00000000  Imp  atexit               (EMXLIBCM.703)
+ 0000:00000000  Imp  memset               (EMXLIBCM.210)
+ 0000:00000000  Imp  objc_thread_exit     (OBJC.140)
+ 0000:00000000  Imp  PrfQueryProfile      (PMSHAPI.107)
+ 0000:00000000  Imp  strcat               (EMXLIBCM.212)
+ 0000:00000000  Imp  strcmp               (EMXLIBCM.214)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  objc_thread_create   (OBJC.142)
+ 0000:00000000  Imp  strcpy               (EMXLIBCM.215)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  DosStartSession      (SESMGR.37)
+ 0000:00000000  Imp  objc_msg_lookup      (OBJC.33)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCancelShutdown    (PMWIN.705)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  __objc_exec_class    (OBJC.47)
+ 0000:00000000  Imp  _entry1              (EMXLIBCM.815)
+ 0001:00000000       _text
+ 0001:0000000C       __syscall
+ 0001:00000018       _init
+ 0001:000001DC       main
+ 0001:0000050C       LoginWinFunc
+ 0001:00000628       LoginDlgProc
+ 0001:0000081C       LoginDlgThread
+ 0001:00000A58       StarterThread
+ 0001:00000EDC       CheckForPassword
+ 0001:00000FC4       CenterWindow
+ 0001:00001030       ShakeWindow
+ 0001:00001140       ShutdownThread
+ 0001:0000118C       logprintf
+ 0001:00001254       TermSnoop
+ 0001:000012D8       _GLOBAL_$I$hwndRahmen
+ 0001:000015DC       lfworker
+ 0001:00001A38       logloop
+ 0001:00001B18       _GLOBAL_$I$lfworker
+ 0001:00001B2C       __objc_class_name_LogFile
+ 0001:00001C34       __main
+ 0001:00001C46       __POST$__main
+ 0001:00001C48       __ctordtorInit
+ 0001:00001C68       __POST$__ctordtorInit
+ 0001:00001C6C       __ctordtorTerm
+ 0001:00001C8C       __POST$__ctordtorTerm
+ 0001:00001C90       __CTOR_LIST__
+ 0001:00001CA0       __DTOR_LIST__
+ 0001:00001CA8       __crtinit1__
+ 0001:00001CB0       __crtexit1__
+ 0002:00000000       _data
+ 0002:00000018       _heap_base
+ 0002:0000001C       _heap_end
+ 0002:00000020       _heap_brk
+ 0002:00000088       hwndRahmen
+ 0002:0000008C       Program_Close_Requested
+ 0002:0000020C       LogFileName
+ 0002:00000210       Starter_tid
+ 0002:00000214       TermSnoop_tid
+ 0002:00000218       ProtokollDatei
+ 0002:0000021C       hab
+ 0002:00000220       Log_tid
+ 0002:00000224       ph_read
+ 0002:00000228       ph_write
+ 0002:0000022C       LoginDaten
+ 0002:00000434       Dialog_tid
+ 0002:00000438       LoginExeID
+
+Program entry point at 0001:00000000
+
+Line numbers for LOGIN.obj(login.obj) segment TEXT32
+
+	 Source       Src File           Seg:Offset
+	Line Num       Index                 (0X)
+	---------     --------          -------------
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files:
+	File 1)login.obj
+
+Line numbers for logfile.obj(logfile.obj) segment TEXT32
+
+	 Source       Src File           Seg:Offset
+	Line Num       Index                 (0X)
+	---------     --------          -------------
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files:
+	File 1)logfile.obj
